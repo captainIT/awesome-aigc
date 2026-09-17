@@ -35,3 +35,15 @@
 - 新分类先想清楚它是否真的独立；能并进现有节就不要新开一节。
 
 改完后更新两份 README 顶部的「最近核对」日期。
+
+## 自动刷新
+
+`scripts/update_catalog.py` 会调用 GitHub API：核对已收录仓库、按 star 重排中英表格，并把搜到的高星新仓写入 `data/candidates.json` 供人工过目。默认**不**自动改主表收录（避免星标农场和无关大仓混进来）。加 `--adopt` 才会把达到门槛的新仓写入主表。不想收录的仓库加到 `data/blocklist.txt`。
+
+已有条目的「一句话」和 NVIDIA 列不会被覆盖。本地运行：
+
+```bash
+python3 scripts/update_catalog.py
+```
+
+GitHub Actions 每三天跑一次（也可在 Actions 页手动触发）。自动补上的一句话来自仓库 description，必要时请再改成「能做什么」。

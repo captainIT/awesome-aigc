@@ -1,0 +1,10 @@
+# 永不自动收录：纯镜像、空壳 fork、星标农场、无关整合包
+# 一行一个 owner/repo（大小写不敏感）
+huggingface/transformers
+unslothai/unsloth
+harry0703/MoneyPrinterTurbo
+Anil-matcha/Open-Generative-AI
+kmario23/deep-learning-drizzle
+NVIDIA/DeepLearningExamples
+MITDeepLearning/introtodeeplearning
+calesthio/OpenMontage

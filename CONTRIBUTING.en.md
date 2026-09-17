@@ -35,3 +35,15 @@ Add one row in the matching section, and **update both READMEs**:
 - Do not invent a new section unless it is truly independent.
 
 Then update the “Last checked” date at the top of both READMEs.
+
+## Auto-refresh
+
+`scripts/update_catalog.py` calls the GitHub API to refresh listed repos, re-sort both READMEs by stars, and write high-star newcomers to `data/candidates.json` for human review. It does **not** add rows to the main tables unless you pass `--adopt`. Put repos you never want in `data/blocklist.txt`.
+
+Existing one-liners and NVIDIA cells are not overwritten. Locally:
+
+```bash
+python3 scripts/update_catalog.py
+```
+
+GitHub Actions runs this every three days (or trigger it manually). Auto-added one-liners come from the GitHub description — edit them to say what the project actually does.
