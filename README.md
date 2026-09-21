@@ -6,7 +6,7 @@
 
 不是论文全集，也不是闭源产品黄页。只收：有代码或权重、能落地、社区仍在用，或对本工作区（动态漫画 / 讲解视频 / 配音）直接有用的项目。
 
-最近核对：2026-09-17。各分类按 GitHub star 降序；徽章为实时数据，排序以本次核对数为准。
+最近核对：2026-09-21。各分类按 GitHub star 降序；徽章为实时数据，排序以本次核对数为准。
 
 NVIDIA 列：`需要` = 官方本地路径依赖 NVIDIA CUDA；`可选` = CPU / Apple Silicon / AMD 也能跑；`不需要` = 在线 API、CPU 或程序化渲染即可。
 
@@ -156,6 +156,7 @@ NVIDIA 列：`需要` = 官方本地路径依赖 NVIDIA CUDA；`可选` = CPU / 
 | [Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) | [![Stars](https://img.shields.io/github/stars/Comfy-Org/ComfyUI-Manager)](https://github.com/Comfy-Org/ComfyUI-Manager) | 可选 | ComfyUI 节点安装与版本管理 | GPL-3.0 |
 | [lllyasviel/stable-diffusion-webui-forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) | [![Stars](https://img.shields.io/github/stars/lllyasviel/stable-diffusion-webui-forge)](https://github.com/lllyasviel/stable-diffusion-webui-forge) | 需要 | Forge，WebUI 路线里更省显存 | AGPL-3.0 |
 | [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts) | [![Stars](https://img.shields.io/github/stars/kohya-ss/sd-scripts)](https://github.com/kohya-ss/sd-scripts) | 需要 | LoRA / 微调脚本，角色画风训练常用 | Apache-2.0 |
+| [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | [![Stars](https://img.shields.io/github/stars/Orkas-AI/Orkas-VideoStudio)](https://github.com/Orkas-AI/Orkas-VideoStudio) | 不需要 | Agent 驱动的编排、剪辑、转写与字幕工具链 | MIT |
 
 ## 相关清单
 
