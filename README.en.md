@@ -6,7 +6,7 @@ Curated open-source Git repos for **video generation, audio generation, comic ge
 
 This is not a paper index and not a closed-source product directory. We only list projects that have code or weights, that you can actually run, that the community still uses, or that plug directly into this workspace (motion comics / explainer videos / voiceover).
 
-Last checked: 2026-09-17. Tables in each section are sorted by GitHub stars (high → low). Badges stay live; ranking follows this snapshot.
+Last checked: 2026-09-21. Tables in each section are sorted by GitHub stars (high → low). Badges stay live; ranking follows this snapshot.
 
 NVIDIA column: `required` = official local path needs NVIDIA CUDA; `optional` = CPU / Apple Silicon / AMD also work; `no` = cloud API, CPU, or CPU rendering.
 
@@ -156,6 +156,7 @@ Models change fast. Node graphs and training scripts last longer.
 | [Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager) | [![Stars](https://img.shields.io/github/stars/Comfy-Org/ComfyUI-Manager)](https://github.com/Comfy-Org/ComfyUI-Manager) | optional | Install and manage ComfyUI custom nodes | GPL-3.0 |
 | [lllyasviel/stable-diffusion-webui-forge](https://github.com/lllyasviel/stable-diffusion-webui-forge) | [![Stars](https://img.shields.io/github/stars/lllyasviel/stable-diffusion-webui-forge)](https://github.com/lllyasviel/stable-diffusion-webui-forge) | required | Forge, a more VRAM-efficient WebUI fork | AGPL-3.0 |
 | [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts) | [![Stars](https://img.shields.io/github/stars/kohya-ss/sd-scripts)](https://github.com/kohya-ss/sd-scripts) | required | LoRA / fine-tune scripts; common for character style | Apache-2.0 |
+| [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | [![Stars](https://img.shields.io/github/stars/Orkas-AI/Orkas-VideoStudio)](https://github.com/Orkas-AI/Orkas-VideoStudio) | no | Agent-driven composition, editing, transcription and caption toolkit | MIT |
 
 ## Related lists
 
