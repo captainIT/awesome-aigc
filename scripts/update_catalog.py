@@ -34,6 +34,10 @@ DATE_EN_RE = re.compile(r"Last checked: \d{4}-\d{2}-\d{2}")
 NVIDIA_ZH = {"required": "需要", "optional": "可选", "no": "不需要", "list": "—"}
 NVIDIA_EN = {"required": "required", "optional": "optional", "no": "no", "list": "—"}
 LICENSE_FALLBACK = {"zh": "见仓库", "en": "see repo"}
+VRAM_FALLBACK = {"zh": "见仓库", "en": "see repo"}
+VRAM_HEADERS = {"最低显存", "VRAM"}
+BLURB_HEADERS = {"一句话", "One-liner"}
+LICENSE_HEADERS = {"许可", "License"}
 GLOBAL_REJECT = re.compile(
     r"\bawesome\b|awesome-|cheatsheet|tutorial|course|lecture|bootcamp|"
     r"transformers|unsloth|moneyprinter|open-generative-ai",
@@ -207,6 +211,7 @@ SECTIONS: tuple[SectionSpec, ...] = (
 class Row:
     repo: str
     nvidia: str
+    vram: str
     blurb: str
     license: str | None
     raw: str
@@ -340,10 +345,23 @@ def is_sep(line: str) -> bool:
     return bool(re.match(r"^\s*\|?\s*:?-{3,}", line))
 
 
+def _col(cols: list[str], names: set[str], default: int | None = None) -> int | None:
+    for i, cell in enumerate(cols):
+        if cell in names:
+            return i
+    return default
+
+
 def parse_table(lines: list[str], spec: SectionSpec, lang: str) -> Table:
     header, sep, data = lines[0], lines[1], lines[2:]
     cols = split_row(header)
-    has_license = any(c in {"许可", "License"} for c in cols)
+    has_license = any(c in LICENSE_HEADERS for c in cols)
+    nvidia_i = _col(cols, {"NVIDIA"}, 2) or 2
+    vram_i = _col(cols, VRAM_HEADERS)
+    blurb_i = _col(cols, BLURB_HEADERS, 3 if vram_i is None else 4)
+    if blurb_i is None:
+        blurb_i = 3 if vram_i is None else 4
+    license_i = _col(cols, LICENSE_HEADERS)
     rows: list[Row] = []
     for line in data:
         cells = split_row(line)
@@ -352,13 +370,20 @@ def parse_table(lines: list[str], spec: SectionSpec, lang: str) -> Table:
         repo = parse_repo(cells[0])
         if not repo:
             continue
-        nvidia = cells[2] if len(cells) > 2 else ""
-        blurb = cells[3] if len(cells) > 3 else ""
-        license_cell = cells[4] if has_license and len(cells) > 4 else None
+        nvidia = cells[nvidia_i] if nvidia_i < len(cells) else ""
+        if vram_i is not None and vram_i < len(cells):
+            vram = cells[vram_i]
+        elif nvidia in {"不需要", "no", "—"}:
+            vram = "—"
+        else:
+            vram = VRAM_FALLBACK[lang]
+        blurb = cells[blurb_i] if blurb_i < len(cells) else ""
+        license_cell = cells[license_i] if license_i is not None and license_i < len(cells) else None
         rows.append(
             Row(
                 repo=repo,
                 nvidia=nvidia,
+                vram=vram,
                 blurb=blurb,
                 license=license_cell,
                 raw=line,
@@ -423,7 +448,7 @@ def format_row(row: Row, table: Table) -> str:
     url = f"https://github.com/{name}"
     project = f"[{name}]({url})"
     badge = f"[![Stars](https://img.shields.io/github/stars/{name})]({url})"
-    cells = [project, badge, row.nvidia, row.blurb]
+    cells = [project, badge, row.nvidia, row.vram or VRAM_FALLBACK[table.lang], row.blurb]
     if table.has_license:
         cells.append(row.license or LICENSE_FALLBACK[table.lang])
     return "| " + " | ".join(cells) + " |"
@@ -440,6 +465,7 @@ def refresh_row(row: Row, meta: dict[str, Any] | None, lang: str) -> Row:
     return Row(
         repo=official,
         nvidia=row.nvidia,
+        vram=row.vram,
         blurb=row.blurb,
         license=license_cell,
         raw=row.raw,
@@ -536,12 +562,14 @@ def add_discovered(table: Table, extras: list[dict[str, Any]]) -> int:
         if name.lower() in existing:
             continue
         nvidia = NVIDIA_ZH[item["nvidia"]] if lang == "zh" else NVIDIA_EN[item["nvidia"]]
+        vram = "—" if item["nvidia"] in {"no", "list"} else VRAM_FALLBACK[lang]
         blurb = clip(item["description"], limit)
         license_cell = license_text(item.get("license"), lang) if table.has_license else None
         table.rows.append(
             Row(
                 repo=name,
                 nvidia=nvidia,
+                vram=vram,
                 blurb=blurb,
                 license=license_cell,
                 raw="",
@@ -554,9 +582,21 @@ def add_discovered(table: Table, extras: list[dict[str, Any]]) -> int:
     return added
 
 
+def ensure_vram_header(table: Table) -> None:
+    cols = split_row(table.header)
+    if any(c in VRAM_HEADERS for c in cols):
+        return
+    vram_name = "最低显存" if table.lang == "zh" else "VRAM"
+    nvidia_i = _col(cols, {"NVIDIA"}, 2) or 2
+    cols.insert(nvidia_i + 1, vram_name)
+    table.header = "| " + " | ".join(cols) + " |"
+    table.sep = "|" + "|".join(["---"] * len(cols)) + "|"
+
+
 def render_table(table: Table) -> str:
     if table.spec.key not in SKIP_REFRESH:
         table.rows.sort(key=lambda r: (r.stars < 0, -r.stars if r.stars >= 0 else 0, r.repo.lower()))
+        ensure_vram_header(table)
     lines = [table.header.rstrip("\n"), table.sep.rstrip("\n")]
     for row in table.rows:
         if table.spec.key in SKIP_REFRESH:

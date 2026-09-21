@@ -24,11 +24,12 @@
 
 在对应分类的表格里加一行，**中英两份 README 同步改**：
 
-`项目 | ★ | NVIDIA | 一句话 | 许可`
+`项目 | ★ | NVIDIA | 最低显存 | 一句话 | 许可`
 
 - 项目列用官方仓库链接，组织 / 仓库名以 GitHub 当前地址为准。
 - ★ 列用 shields 徽章：`[![Stars](https://img.shields.io/github/stars/ORG/REPO)](https://github.com/ORG/REPO)`。
 - NVIDIA 列只填：`需要`（官方本地路径依赖 NVIDIA CUDA）、`可选`（CPU / Apple Silicon / AMD 也能跑）、`不需要`（在线 API、CPU 或程序化渲染）。英文对应 `required` / `optional` / `no`。清单类填 `—`。
+- 最低显存列填该仓库官方本地推理（含官方写明的 offload / 小模型）能跑通的 NVIDIA 显存档，如 `8G` / `12G` / `16G` / `24G`。不需要英伟达卡、以及清单类，填 `—`。英文列名是 `VRAM`。
 - 加完后按当前 star 数把该分类表格重新降序排列。
 - 一句话不超过 40 字，写「能做什么」，不要写营销词。英文版同样写清用途。
 - 许可填 SPDX（如 `Apache-2.0`、`MIT`）。官方选 `Other` 或未声明时，中文写 `见仓库`，英文写 `see repo`。
@@ -40,7 +41,7 @@
 
 `scripts/update_catalog.py` 会调用 GitHub API：核对已收录仓库、按 star 重排中英表格，并把搜到的高星新仓写入 `data/candidates.json` 供人工过目。默认**不**自动改主表收录（避免星标农场和无关大仓混进来）。加 `--adopt` 才会把达到门槛的新仓写入主表。不想收录的仓库加到 `data/blocklist.txt`。
 
-已有条目的「一句话」和 NVIDIA 列不会被覆盖。本地运行：
+已有条目的「一句话」、NVIDIA 列和最低显存列不会被覆盖。本地运行：
 
 ```bash
 python3 scripts/update_catalog.py

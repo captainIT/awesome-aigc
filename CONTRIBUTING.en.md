@@ -24,11 +24,12 @@ Do not add:
 
 Add one row in the matching section, and **update both READMEs**:
 
-`Project | ★ | NVIDIA | One-liner | License`
+`Project | ★ | NVIDIA | VRAM | One-liner | License`
 
 - Link the official repo; use the current GitHub org / name.
 - Stars column uses a shields badge: `[![Stars](https://img.shields.io/github/stars/ORG/REPO)](https://github.com/ORG/REPO)`.
 - NVIDIA column is one of: `required` (official local path needs NVIDIA CUDA), `optional` (CPU / Apple Silicon / AMD also work), `no` (cloud API, CPU, or CPU rendering). Use `需要` / `可选` / `不需要` in Chinese. Use `—` for lists.
+- VRAM is the minimum NVIDIA memory for this repo's official local inference path (including official offload / small variants), e.g. `8G` / `12G` / `16G` / `24G`. Use `—` when no NVIDIA GPU is required, and for lists. Chinese column name is `最低显存`.
 - After adding, re-sort that section's table by current star count (high → low).
 - One-liner ≤ 40 characters / ~12 words. Say what it does; no marketing copy. Keep the Chinese and English blurbs aligned.
 - License is SPDX (`Apache-2.0`, `MIT`, …). If the official license is `Other` or undeclared, write `见仓库` in Chinese and `see repo` in English.
@@ -40,7 +41,7 @@ Then update the “Last checked” date at the top of both READMEs.
 
 `scripts/update_catalog.py` calls the GitHub API to refresh listed repos, re-sort both READMEs by stars, and write high-star newcomers to `data/candidates.json` for human review. It does **not** add rows to the main tables unless you pass `--adopt`. Put repos you never want in `data/blocklist.txt`.
 
-Existing one-liners and NVIDIA cells are not overwritten. Locally:
+Existing one-liners, NVIDIA cells, and VRAM cells are not overwritten. Locally:
 
 ```bash
 python3 scripts/update_catalog.py
