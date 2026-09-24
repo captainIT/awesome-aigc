@@ -6,7 +6,7 @@ Curated open-source Git repos for **video generation, audio generation, comic ge
 
 This is not a paper index and not a closed-source product directory. We only list projects that have code or weights, that you can actually run, that the community still uses, or that plug directly into this workspace (motion comics / explainer videos / voiceover).
 
-Last checked: 2026-09-17. Tables in each section are sorted by GitHub stars (high → low). Badges stay live; ranking follows this snapshot.
+Last checked: 2026-09-24. Tables in each section are sorted by GitHub stars (high → low). Badges stay live; ranking follows this snapshot.
 
 NVIDIA column: `required` = official local path needs NVIDIA CUDA; `optional` = CPU / Apple Silicon / AMD also work; `no` = cloud API, CPU, or CPU rendering.
 
@@ -125,6 +125,7 @@ Two tracks: research-style continuous character panels, and product-style novel 
 |---|---|---|---|---|---|
 | [zyddnys/manga-image-translator](https://github.com/zyddnys/manga-image-translator) | [![Stars](https://img.shields.io/github/stars/zyddnys/manga-image-translator)](https://github.com/zyddnys/manga-image-translator) | optional | 8G | In-image text detect, translate, and re-typeset | GPL-3.0 |
 | [HVision-NKU/StoryDiffusion](https://github.com/HVision-NKU/StoryDiffusion) | [![Stars](https://img.shields.io/github/stars/HVision-NKU/StoryDiffusion)](https://github.com/HVision-NKU/StoryDiffusion) | required | 12G | Long-sequence character consistency; comics / storyboards | Apache-2.0 |
+| [gnipbao/story-to-handdrawn-video](https://github.com/gnipbao/story-to-handdrawn-video) | [![Stars](https://img.shields.io/github/stars/gnipbao/story-to-handdrawn-video)](https://github.com/gnipbao/story-to-handdrawn-video) | no | — | Chinese story or ordered images → silent hand-drawn diary-comic video | MIT |
 | [Vincentwei1021/anything2explainer](https://github.com/Vincentwei1021/anything2explainer) | [![Stars](https://img.shields.io/github/stars/Vincentwei1021/anything2explainer)](https://github.com/Vincentwei1021/anything2explainer) | no | — | Topic → code-drawn explainer video (narrative video, not a picture book) | see repo |
 | [jbilcke-hf/ai-comic-factory](https://github.com/jbilcke-hf/ai-comic-factory) | [![Stars](https://img.shields.io/github/stars/jbilcke-hf/ai-comic-factory)](https://github.com/jbilcke-hf/ai-comic-factory) | required | 12G | LLM + SDXL comic panels in the Hugging Face ecosystem | Apache-2.0 |
 | [jianzongwu/DiffSensei](https://github.com/jianzongwu/DiffSensei) | [![Stars](https://img.shields.io/github/stars/jianzongwu/DiffSensei)](https://github.com/jianzongwu/DiffSensei) | required | 12G | CVPR 2025, controllable B&W comic panels, multi-character | see repo |

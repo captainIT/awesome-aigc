@@ -6,7 +6,7 @@
 
 不是论文全集，也不是闭源产品黄页。只收：有代码或权重、能落地、社区仍在用，或对本工作区（动态漫画 / 讲解视频 / 配音）直接有用的项目。
 
-最近核对：2026-09-17。各分类按 GitHub star 降序；徽章为实时数据，排序以本次核对数为准。
+最近核对：2026-09-24。各分类按 GitHub star 降序；徽章为实时数据，排序以本次核对数为准。
 
 NVIDIA 列：`需要` = 官方本地路径依赖 NVIDIA CUDA；`可选` = CPU / Apple Silicon / AMD 也能跑；`不需要` = 在线 API、CPU 或程序化渲染即可。
 
@@ -125,6 +125,7 @@ NVIDIA 列：`需要` = 官方本地路径依赖 NVIDIA CUDA；`可选` = CPU / 
 |---|---|---|---|---|---|
 | [zyddnys/manga-image-translator](https://github.com/zyddnys/manga-image-translator) | [![Stars](https://img.shields.io/github/stars/zyddnys/manga-image-translator)](https://github.com/zyddnys/manga-image-translator) | 可选 | 8G | 漫画图内文字检测、翻译、重排字 | GPL-3.0 |
 | [HVision-NKU/StoryDiffusion](https://github.com/HVision-NKU/StoryDiffusion) | [![Stars](https://img.shields.io/github/stars/HVision-NKU/StoryDiffusion)](https://github.com/HVision-NKU/StoryDiffusion) | 需要 | 12G | 长序列角色一致性，连环画 / 分镜常用 | Apache-2.0 |
+| [gnipbao/story-to-handdrawn-video](https://github.com/gnipbao/story-to-handdrawn-video) | [![Stars](https://img.shields.io/github/stars/gnipbao/story-to-handdrawn-video)](https://github.com/gnipbao/story-to-handdrawn-video) | 不需要 | — | 中文故事或有序图 → 手绘日记漫画静音成片 | MIT |
 | [Vincentwei1021/anything2explainer](https://github.com/Vincentwei1021/anything2explainer) | [![Stars](https://img.shields.io/github/stars/Vincentwei1021/anything2explainer)](https://github.com/Vincentwei1021/anything2explainer) | 不需要 | — | 主题 → 代码绘制讲解视频（非绘本，但是叙事成片） | 见仓库 |
 | [jbilcke-hf/ai-comic-factory](https://github.com/jbilcke-hf/ai-comic-factory) | [![Stars](https://img.shields.io/github/stars/jbilcke-hf/ai-comic-factory)](https://github.com/jbilcke-hf/ai-comic-factory) | 需要 | 12G | LLM + SDXL 出漫画格，Hugging Face 生态 | Apache-2.0 |
 | [jianzongwu/DiffSensei](https://github.com/jianzongwu/DiffSensei) | [![Stars](https://img.shields.io/github/stars/jianzongwu/DiffSensei)](https://github.com/jianzongwu/DiffSensei) | 需要 | 12G | CVPR 2025，可控黑白漫画格、多角色 | 见仓库 |
