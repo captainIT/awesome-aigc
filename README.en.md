@@ -6,7 +6,7 @@ Curated open-source Git repos for **video generation, audio generation, comic ge
 
 This is not a paper index and not a closed-source product directory. We only list projects that have code or weights, that you can actually run, that the community still uses, or that plug directly into this workspace (motion comics / explainer videos / voiceover).
 
-Last checked: 2026-10-10. Tables in each section are sorted by GitHub stars (high → low). Badges stay live; ranking follows this snapshot.
+Last checked: 2026-10-13. Tables in each section are sorted by GitHub stars (high → low). Badges stay live; ranking follows this snapshot.
 
 NVIDIA column: `required` = official local path needs NVIDIA CUDA; `optional` = CPU / Apple Silicon / AMD also work; `no` = cloud API, CPU, or CPU rendering.
 
@@ -62,7 +62,7 @@ On 8–16 GB VRAM, start with these engineering repos before downloading full we
 
 | Project | ★ | NVIDIA | VRAM | One-liner | License |
 |---|---|---|---|---|---|
-| [deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP) | [![Stars](https://img.shields.io/github/stars/deepbeepmeep/Wan2GP)](https://github.com/deepbeepmeep/Wan2GP) | optional | 6G | One-stop low-VRAM: Wan / Hunyuan / LTX / Flux; official AMD support | see repo |
+| [deepbeepmeep/WanGP](https://github.com/deepbeepmeep/WanGP) | [![Stars](https://img.shields.io/github/stars/deepbeepmeep/WanGP)](https://github.com/deepbeepmeep/WanGP) | optional | 6G | One-stop low-VRAM: Wan / Hunyuan / LTX / Flux; official AMD support | see repo |
 | [kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) | [![Stars](https://img.shields.io/github/stars/kijai/ComfyUI-WanVideoWrapper)](https://github.com/kijai/ComfyUI-WanVideoWrapper) | required | 8G | Fastest ComfyUI wrapper tracking new Wan features | Apache-2.0 |
 | [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | [![Stars](https://img.shields.io/github/stars/Lightricks/ComfyUI-LTXVideo)](https://github.com/Lightricks/ComfyUI-LTXVideo) | required | 8G | Official LTX ComfyUI workflows | see repo |
 | [ModelTC/LightX2V](https://github.com/ModelTC/LightX2V) | [![Stars](https://img.shields.io/github/stars/ModelTC/LightX2V)](https://github.com/ModelTC/LightX2V) | required | 8G | Wan-family distillation, quant, light VAE; engineering speedups | Apache-2.0 |

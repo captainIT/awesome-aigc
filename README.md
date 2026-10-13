@@ -6,7 +6,7 @@
 
 不是论文全集，也不是闭源产品黄页。只收：有代码或权重、能落地、社区仍在用，或对本工作区（动态漫画 / 讲解视频 / 配音）直接有用的项目。
 
-最近核对：2026-10-10。各分类按 GitHub star 降序；徽章为实时数据，排序以本次核对数为准。
+最近核对：2026-10-13。各分类按 GitHub star 降序；徽章为实时数据，排序以本次核对数为准。
 
 NVIDIA 列：`需要` = 官方本地路径依赖 NVIDIA CUDA；`可选` = CPU / Apple Silicon / AMD 也能跑；`不需要` = 在线 API、CPU 或程序化渲染即可。
 
@@ -62,7 +62,7 @@ NVIDIA 列：`需要` = 官方本地路径依赖 NVIDIA CUDA；`可选` = CPU / 
 
 | 项目 | ★ | NVIDIA | 最低显存 | 一句话 | 许可 |
 |---|---|---|---|---|---|
-| [deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP) | [![Stars](https://img.shields.io/github/stars/deepbeepmeep/Wan2GP)](https://github.com/deepbeepmeep/Wan2GP) | 可选 | 6G | 低显存一站式：Wan / Hunyuan / LTX / Flux；官方也支持 AMD | 见仓库 |
+| [deepbeepmeep/WanGP](https://github.com/deepbeepmeep/WanGP) | [![Stars](https://img.shields.io/github/stars/deepbeepmeep/WanGP)](https://github.com/deepbeepmeep/WanGP) | 可选 | 6G | 低显存一站式：Wan / Hunyuan / LTX / Flux；官方也支持 AMD | 见仓库 |
 | [kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) | [![Stars](https://img.shields.io/github/stars/kijai/ComfyUI-WanVideoWrapper)](https://github.com/kijai/ComfyUI-WanVideoWrapper) | 需要 | 8G | ComfyUI 里跟进 Wan 新特性最快的封装 | Apache-2.0 |
 | [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo) | [![Stars](https://img.shields.io/github/stars/Lightricks/ComfyUI-LTXVideo)](https://github.com/Lightricks/ComfyUI-LTXVideo) | 需要 | 8G | LTX 官方 ComfyUI 工作流 | 见仓库 |
 | [ModelTC/LightX2V](https://github.com/ModelTC/LightX2V) | [![Stars](https://img.shields.io/github/stars/ModelTC/LightX2V)](https://github.com/ModelTC/LightX2V) | 需要 | 8G | Wan 系蒸馏、量化、轻量 VAE，偏工程加速 | Apache-2.0 |
