@@ -6,7 +6,7 @@
 
 不是论文全集，也不是闭源产品黄页。只收：有代码或权重、能落地、社区仍在用，或对本工作区（动态漫画 / 讲解视频 / 配音）直接有用的项目。
 
-最近核对：2026-11-01。各分类按 GitHub star 降序；徽章为实时数据，排序以本次核对数为准。
+最近核对：2026-11-04。各分类按 GitHub star 降序；徽章为实时数据，排序以本次核对数为准。
 
 NVIDIA 列：`需要` = 官方本地路径依赖 NVIDIA CUDA；`可选` = CPU / Apple Silicon / AMD 也能跑；`不需要` = 在线 API、CPU 或程序化渲染即可。
 
@@ -51,7 +51,7 @@ NVIDIA 列：`需要` = 官方本地路径依赖 NVIDIA CUDA；`可选` = CPU / 
 | [guoyww/AnimateDiff](https://github.com/guoyww/AnimateDiff) | [![Stars](https://img.shields.io/github/stars/guoyww/AnimateDiff)](https://github.com/guoyww/AnimateDiff) | 需要 | 8G | 给 SD 图生模型加运动模块，角色动画常用 | Apache-2.0 |
 | [PKU-YuanGroup/Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan) | [![Stars](https://img.shields.io/github/stars/PKU-YuanGroup/Open-Sora-Plan)](https://github.com/PKU-YuanGroup/Open-Sora-Plan) | 需要 | 24G | 北大元集团开源视频方案，社区资料多 | MIT |
 | [Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video) | [![Stars](https://img.shields.io/github/stars/Lightricks/LTX-Video)](https://github.com/Lightricks/LTX-Video) | 需要 | 8G | LTX 系列，生成快，适合迭代和音画同步实验 | Apache-2.0 |
-| [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2) | [![Stars](https://img.shields.io/github/stars/Lightricks/LTX-2)](https://github.com/Lightricks/LTX-2) | 需要 | 24G | LTX 二代，音画一起生成，官方推理与 LoRA | 见仓库 |
+| [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2) | [![Stars](https://img.shields.io/github/stars/Lightricks/LTX-2)](https://github.com/Lightricks/LTX-2) | 需要 | 24G | LTX 二代，音画一起生成，官方推理与 LoRA | Apache-2.0 |
 | [Tencent-Hunyuan/HunyuanVideo-1.5](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5) | [![Stars](https://img.shields.io/github/stars/Tencent-Hunyuan/HunyuanVideo-1.5)](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5) | 需要 | 16G | 混元视频 1.5，8.3B 轻量、消费级显卡可跑 | 见仓库 |
 | [genmoai/mochi](https://github.com/genmoai/mochi) | [![Stars](https://img.shields.io/github/stars/genmoai/mochi)](https://github.com/genmoai/mochi) | 需要 | 24G | Genmo Mochi，开源视频质量标杆之一 | Apache-2.0 |
 | [PKU-YuanGroup/Helios](https://github.com/PKU-YuanGroup/Helios) | [![Stars](https://img.shields.io/github/stars/PKU-YuanGroup/Helios)](https://github.com/PKU-YuanGroup/Helios) | 需要 | 6G | 分钟级长视频、偏实时推理 | Apache-2.0 |

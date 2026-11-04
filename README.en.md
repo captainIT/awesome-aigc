@@ -6,7 +6,7 @@ Curated open-source Git repos for **video generation, audio generation, comic ge
 
 This is not a paper index and not a closed-source product directory. We only list projects that have code or weights, that you can actually run, that the community still uses, or that plug directly into this workspace (motion comics / explainer videos / voiceover).
 
-Last checked: 2026-11-01. Tables in each section are sorted by GitHub stars (high → low). Badges stay live; ranking follows this snapshot.
+Last checked: 2026-11-04. Tables in each section are sorted by GitHub stars (high → low). Badges stay live; ranking follows this snapshot.
 
 NVIDIA column: `required` = official local path needs NVIDIA CUDA; `optional` = CPU / Apple Silicon / AMD also work; `no` = cloud API, CPU, or CPU rendering.
 
@@ -51,7 +51,7 @@ The current open-source core is Wan / Hunyuan / CogVideoX / LTX. Pick by VRAM an
 | [guoyww/AnimateDiff](https://github.com/guoyww/AnimateDiff) | [![Stars](https://img.shields.io/github/stars/guoyww/AnimateDiff)](https://github.com/guoyww/AnimateDiff) | required | 8G | Motion modules for SD image models; common for character animation | Apache-2.0 |
 | [PKU-YuanGroup/Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan) | [![Stars](https://img.shields.io/github/stars/PKU-YuanGroup/Open-Sora-Plan)](https://github.com/PKU-YuanGroup/Open-Sora-Plan) | required | 24G | PKU Yuan Group video stack with lots of community material | MIT |
 | [Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video) | [![Stars](https://img.shields.io/github/stars/Lightricks/LTX-Video)](https://github.com/Lightricks/LTX-Video) | required | 8G | LTX series, fast generation, good for iteration and A/V sync | Apache-2.0 |
-| [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2) | [![Stars](https://img.shields.io/github/stars/Lightricks/LTX-2)](https://github.com/Lightricks/LTX-2) | required | 24G | LTX-2 official inference and LoRA; joint audio-video | see repo |
+| [Lightricks/LTX-2](https://github.com/Lightricks/LTX-2) | [![Stars](https://img.shields.io/github/stars/Lightricks/LTX-2)](https://github.com/Lightricks/LTX-2) | required | 24G | LTX-2 official inference and LoRA; joint audio-video | Apache-2.0 |
 | [Tencent-Hunyuan/HunyuanVideo-1.5](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5) | [![Stars](https://img.shields.io/github/stars/Tencent-Hunyuan/HunyuanVideo-1.5)](https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5) | required | 16G | Hunyuan Video 1.5, 8.3B lightweight, runs on consumer GPUs | see repo |
 | [genmoai/mochi](https://github.com/genmoai/mochi) | [![Stars](https://img.shields.io/github/stars/genmoai/mochi)](https://github.com/genmoai/mochi) | required | 24G | Genmo Mochi, a quality benchmark among open video models | Apache-2.0 |
 | [PKU-YuanGroup/Helios](https://github.com/PKU-YuanGroup/Helios) | [![Stars](https://img.shields.io/github/stars/PKU-YuanGroup/Helios)](https://github.com/PKU-YuanGroup/Helios) | required | 6G | Minute-long video, leaning real-time inference | Apache-2.0 |
