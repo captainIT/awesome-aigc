@@ -6,7 +6,7 @@
 
 不是论文全集，也不是闭源产品黄页。只收：有代码或权重、能落地、社区仍在用，或对本工作区（动态漫画 / 讲解视频 / 配音）直接有用的项目。
 
-最近核对：2026-11-16。各分类按 GitHub star 降序；徽章为实时数据，排序以本次核对数为准。
+最近核对：2026-11-19。各分类按 GitHub star 降序；徽章为实时数据，排序以本次核对数为准。
 
 NVIDIA 列：`需要` = 官方本地路径依赖 NVIDIA CUDA；`可选` = CPU / Apple Silicon / AMD 也能跑；`不需要` = 在线 API、CPU 或程序化渲染即可。
 
@@ -75,7 +75,7 @@ NVIDIA 列：`需要` = 官方本地路径依赖 NVIDIA CUDA；`可选` = CPU / 
 |---|---|---|---|---|---|
 | [KlingAIResearch/LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | [![Stars](https://img.shields.io/github/stars/KlingAIResearch/LivePortrait)](https://github.com/KlingAIResearch/LivePortrait) | 可选 | 8G | 人像驱动，漫画角色微表情 / 转头常用；官方支持 Apple Silicon | 见仓库 |
 | [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) | [![Stars](https://img.shields.io/github/stars/OpenTalker/SadTalker)](https://github.com/OpenTalker/SadTalker) | 需要 | 8G | 单图 + 音频驱动说话人脸，资料最多 | 见仓库 |
-| [TMElyralab/MuseTalk](https://github.com/TMElyralab/MuseTalk) | [![Stars](https://img.shields.io/github/stars/TMElyralab/MuseTalk)](https://github.com/TMElyralab/MuseTalk) | 需要 | 8G | 实时级口型，适合口播叠加 | 见仓库 |
+| [TMElyralab/MuseTalk](https://github.com/TMElyralab/MuseTalk) | [![Stars](https://img.shields.io/github/stars/TMElyralab/MuseTalk)](https://github.com/TMElyralab/MuseTalk) | 需要 | 8G | 实时级口型，适合口播叠加 | MIT |
 | [bytedance/LatentSync](https://github.com/bytedance/LatentSync) | [![Stars](https://img.shields.io/github/stars/bytedance/LatentSync)](https://github.com/bytedance/LatentSync) | 需要 | 8G | 字节口型同步，质量稳 | Apache-2.0 |
 | [antgroup/echomimic_v2](https://github.com/antgroup/echomimic_v2) | [![Stars](https://img.shields.io/github/stars/antgroup/echomimic_v2)](https://github.com/antgroup/echomimic_v2) | 需要 | 16G | 蚂蚁 EchoMimic V2，半身人像说话 | Apache-2.0 |
 

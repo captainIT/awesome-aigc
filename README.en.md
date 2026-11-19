@@ -6,7 +6,7 @@ Curated open-source Git repos for **video generation, audio generation, comic ge
 
 This is not a paper index and not a closed-source product directory. We only list projects that have code or weights, that you can actually run, that the community still uses, or that plug directly into this workspace (motion comics / explainer videos / voiceover).
 
-Last checked: 2026-11-16. Tables in each section are sorted by GitHub stars (high → low). Badges stay live; ranking follows this snapshot.
+Last checked: 2026-11-19. Tables in each section are sorted by GitHub stars (high → low). Badges stay live; ranking follows this snapshot.
 
 NVIDIA column: `required` = official local path needs NVIDIA CUDA; `optional` = CPU / Apple Silicon / AMD also work; `no` = cloud API, CPU, or CPU rendering.
 
@@ -75,7 +75,7 @@ Use these when a still comic frame needs to talk or turn its head. Do not treat 
 |---|---|---|---|---|---|
 | [KlingAIResearch/LivePortrait](https://github.com/KlingAIResearch/LivePortrait) | [![Stars](https://img.shields.io/github/stars/KlingAIResearch/LivePortrait)](https://github.com/KlingAIResearch/LivePortrait) | optional | 8G | Portrait driving; micro-expressions / head turns; official Apple Silicon | see repo |
 | [OpenTalker/SadTalker](https://github.com/OpenTalker/SadTalker) | [![Stars](https://img.shields.io/github/stars/OpenTalker/SadTalker)](https://github.com/OpenTalker/SadTalker) | required | 8G | Single image + audio talking face; most tutorials | see repo |
-| [TMElyralab/MuseTalk](https://github.com/TMElyralab/MuseTalk) | [![Stars](https://img.shields.io/github/stars/TMElyralab/MuseTalk)](https://github.com/TMElyralab/MuseTalk) | required | 8G | Near-real-time lips; good for talking-head overlay | see repo |
+| [TMElyralab/MuseTalk](https://github.com/TMElyralab/MuseTalk) | [![Stars](https://img.shields.io/github/stars/TMElyralab/MuseTalk)](https://github.com/TMElyralab/MuseTalk) | required | 8G | Near-real-time lips; good for talking-head overlay | MIT |
 | [bytedance/LatentSync](https://github.com/bytedance/LatentSync) | [![Stars](https://img.shields.io/github/stars/bytedance/LatentSync)](https://github.com/bytedance/LatentSync) | required | 8G | ByteDance lip-sync with stable quality | Apache-2.0 |
 | [antgroup/echomimic_v2](https://github.com/antgroup/echomimic_v2) | [![Stars](https://img.shields.io/github/stars/antgroup/echomimic_v2)](https://github.com/antgroup/echomimic_v2) | required | 16G | EchoMimic V2, striking half-body talking portraits | Apache-2.0 |
 
