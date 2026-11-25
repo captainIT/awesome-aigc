@@ -6,7 +6,7 @@
 
 不是论文全集，也不是闭源产品黄页。只收：有代码或权重、能落地、社区仍在用，或对本工作区（动态漫画 / 讲解视频 / 配音）直接有用的项目。
 
-最近核对：2026-11-22。各分类按 GitHub star 降序；徽章为实时数据，排序以本次核对数为准。
+最近核对：2026-11-25。各分类按 GitHub star 降序；徽章为实时数据，排序以本次核对数为准。
 
 NVIDIA 列：`需要` = 官方本地路径依赖 NVIDIA CUDA；`可选` = CPU / Apple Silicon / AMD 也能跑；`不需要` = 在线 API、CPU 或程序化渲染即可。
 
@@ -85,7 +85,6 @@ NVIDIA 列：`需要` = 官方本地路径依赖 NVIDIA CUDA；`可选` = CPU / 
 
 | 项目 | ★ | NVIDIA | 最低显存 | 一句话 | 许可 |
 |---|---|---|---|---|---|
-| [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | [![Stars](https://img.shields.io/github/stars/RVC-Boss/GPT-SoVITS)](https://github.com/RVC-Boss/GPT-SoVITS) | 可选 | 8G | 一两分钟语料克隆，中文配音事实标准；官方有 CPU / Apple Silicon | MIT |
 | [2noise/ChatTTS](https://github.com/2noise/ChatTTS) | [![Stars](https://img.shields.io/github/stars/2noise/ChatTTS)](https://github.com/2noise/ChatTTS) | 可选 | 8G | 对话语气强，适合旁白草稿 | AGPL-3.0 |
 | [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | [![Stars](https://img.shields.io/github/stars/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | 可选 | 8G | RVC 变声，短音频训练角色声线 | MIT |
 | [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) | [![Stars](https://img.shields.io/github/stars/fishaudio/fish-speech)](https://github.com/fishaudio/fish-speech) | 需要 | 8G | Fish Speech / S2，情绪与多语自然度突出 | 见仓库 |
@@ -97,6 +96,7 @@ NVIDIA 列：`需要` = 官方本地路径依赖 NVIDIA CUDA；`可选` = CPU / 
 | [SparkAudio/Spark-TTS](https://github.com/SparkAudio/Spark-TTS) | [![Stars](https://img.shields.io/github/stars/SparkAudio/Spark-TTS)](https://github.com/SparkAudio/Spark-TTS) | 可选 | 8G | Spark-TTS，推理简单、中英可用 | Apache-2.0 |
 | [hexgrad/kokoro](https://github.com/hexgrad/kokoro) | [![Stars](https://img.shields.io/github/stars/hexgrad/kokoro)](https://github.com/hexgrad/kokoro) | 不需要 | — | 82M 小模型，讲解视频英文配音轻量方案；CPU / Apple Silicon 可跑 | Apache-2.0 |
 | [fishaudio/Bert-VITS2](https://github.com/fishaudio/Bert-VITS2) | [![Stars](https://img.shields.io/github/stars/fishaudio/Bert-VITS2)](https://github.com/fishaudio/Bert-VITS2) | 可选 | 8G | 中文歌声 / 角色感 TTS，仍有大量音色 | AGPL-3.0 |
+| [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | [![Stars](https://img.shields.io/github/stars/RVC-Boss/GPT-SoVITS)](https://github.com/RVC-Boss/GPT-SoVITS) | 可选 | 8G | 一两分钟语料克隆，中文配音事实标准；官方有 CPU / Apple Silicon | MIT |
 
 ## 音乐与音效
 

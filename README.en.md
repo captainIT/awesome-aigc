@@ -6,7 +6,7 @@ Curated open-source Git repos for **video generation, audio generation, comic ge
 
 This is not a paper index and not a closed-source product directory. We only list projects that have code or weights, that you can actually run, that the community still uses, or that plug directly into this workspace (motion comics / explainer videos / voiceover).
 
-Last checked: 2026-11-22. Tables in each section are sorted by GitHub stars (high → low). Badges stay live; ranking follows this snapshot.
+Last checked: 2026-11-25. Tables in each section are sorted by GitHub stars (high → low). Badges stay live; ranking follows this snapshot.
 
 NVIDIA column: `required` = official local path needs NVIDIA CUDA; `optional` = CPU / Apple Silicon / AMD also work; `no` = cloud API, CPU, or CPU rendering.
 
@@ -85,7 +85,6 @@ Use these when a still comic frame needs to talk or turn its head. Do not treat 
 
 | Project | ★ | NVIDIA | VRAM | One-liner | License |
 |---|---|---|---|---|---|
-| [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | [![Stars](https://img.shields.io/github/stars/RVC-Boss/GPT-SoVITS)](https://github.com/RVC-Boss/GPT-SoVITS) | optional | 8G | Clone from 1–2 minutes of audio; official CPU / Apple Silicon | MIT |
 | [2noise/ChatTTS](https://github.com/2noise/ChatTTS) | [![Stars](https://img.shields.io/github/stars/2noise/ChatTTS)](https://github.com/2noise/ChatTTS) | optional | 8G | Strong conversational tone; good for narration drafts | AGPL-3.0 |
 | [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | [![Stars](https://img.shields.io/github/stars/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | optional | 8G | RVC voice conversion; train a character timbre from short audio | MIT |
 | [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech) | [![Stars](https://img.shields.io/github/stars/fishaudio/fish-speech)](https://github.com/fishaudio/fish-speech) | required | 8G | Fish Speech / S2; emotion and multilingual naturalness | see repo |
@@ -97,6 +96,7 @@ Use these when a still comic frame needs to talk or turn its head. Do not treat 
 | [SparkAudio/Spark-TTS](https://github.com/SparkAudio/Spark-TTS) | [![Stars](https://img.shields.io/github/stars/SparkAudio/Spark-TTS)](https://github.com/SparkAudio/Spark-TTS) | optional | 8G | Spark-TTS, simple inference, Chinese + English | Apache-2.0 |
 | [hexgrad/kokoro](https://github.com/hexgrad/kokoro) | [![Stars](https://img.shields.io/github/stars/hexgrad/kokoro)](https://github.com/hexgrad/kokoro) | no | — | 82M small model; CPU / Apple Silicon English voiceover | Apache-2.0 |
 | [fishaudio/Bert-VITS2](https://github.com/fishaudio/Bert-VITS2) | [![Stars](https://img.shields.io/github/stars/fishaudio/Bert-VITS2)](https://github.com/fishaudio/Bert-VITS2) | optional | 8G | Chinese singing / character TTS; still many voices | AGPL-3.0 |
+| [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | [![Stars](https://img.shields.io/github/stars/RVC-Boss/GPT-SoVITS)](https://github.com/RVC-Boss/GPT-SoVITS) | optional | 8G | Clone from 1–2 minutes of audio; official CPU / Apple Silicon | MIT |
 
 ## Music and sound effects
 
