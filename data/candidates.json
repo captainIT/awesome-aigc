@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-28",
   "items": [
     {
       "repo": "heygen-com/hyperframes",
-      "stars": 89858,
+      "stars": 91751,
       "section": "video",
       "description": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
       "url": "https://github.com/heygen-com/hyperframes",
@@ -12,7 +12,7 @@
     },
     {
       "repo": "OpenMontageInc/OpenMontage",
-      "stars": 83212,
+      "stars": 83959,
       "section": "video",
       "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "url": "https://github.com/OpenMontageInc/OpenMontage",
@@ -21,7 +21,7 @@
     },
     {
       "repo": "bilibili/GPT-SoVITS",
-      "stars": 64255,
+      "stars": 64297,
       "section": "tts",
       "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
       "url": "https://github.com/bilibili/GPT-SoVITS",
@@ -30,7 +30,7 @@
     },
     {
       "repo": "CorentinJ/Real-Time-Voice-Cloning",
-      "stars": 60252,
+      "stars": 60258,
       "section": "tts",
       "description": "Clone a voice in 5 seconds to generate arbitrary speech in real-time",
       "url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
@@ -39,7 +39,7 @@
     },
     {
       "repo": "coqui-ai/TTS",
-      "stars": 46279,
+      "stars": 46293,
       "section": "tts",
       "description": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
       "url": "https://github.com/coqui-ai/TTS",
@@ -48,7 +48,7 @@
     },
     {
       "repo": "OpenBMB/VoxCPM",
-      "stars": 42974,
+      "stars": 43059,
       "section": "tts",
       "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
       "url": "https://github.com/OpenBMB/VoxCPM",
@@ -57,7 +57,7 @@
     },
     {
       "repo": "myshell-ai/OpenVoice",
-      "stars": 38321,
+      "stars": 38352,
       "section": "tts",
       "description": "Instant voice cloning by MIT and MyShell. Audio foundation model.",
       "url": "https://github.com/myshell-ai/OpenVoice",
@@ -66,7 +66,7 @@
     },
     {
       "repo": "babysor/MockingBird",
-      "stars": 36854,
+      "stars": 36857,
       "section": "tts",
       "description": "🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time",
       "url": "https://github.com/babysor/MockingBird",
@@ -75,7 +75,7 @@
     },
     {
       "repo": "hypit-ai/hypit",
-      "stars": 31461,
+      "stars": 31725,
       "section": "video",
       "description": "Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.",
       "url": "https://github.com/hypit-ai/hypit",
@@ -84,7 +84,7 @@
     },
     {
       "repo": "ATH-MaaS/Pixelle-Video",
-      "stars": 30515,
+      "stars": 30583,
       "section": "video",
       "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
       "url": "https://github.com/ATH-MaaS/Pixelle-Video",
@@ -93,7 +93,7 @@
     },
     {
       "repo": "invoke-ai/InvokeAI",
-      "stars": 29158,
+      "stars": 29178,
       "section": "video",
       "description": "Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products.",
       "url": "https://github.com/invoke-ai/InvokeAI",
@@ -102,7 +102,7 @@
     },
     {
       "repo": "SYSTRAN/faster-whisper",
-      "stars": 27005,
+      "stars": 27079,
       "section": "asr",
       "description": "Faster Whisper transcription with CTranslate2",
       "url": "https://github.com/SYSTRAN/faster-whisper",
@@ -111,7 +111,7 @@
     },
     {
       "repo": "m-bain/whisperX",
-      "stars": 25663,
+      "stars": 26040,
       "section": "asr",
       "description": "WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization)",
       "url": "https://github.com/m-bain/whisperX",
@@ -119,8 +119,17 @@
       "nvidia": "optional"
     },
     {
+      "repo": "Vincentwei1021/video-shotcraft",
+      "stars": 23200,
+      "section": "video",
+      "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "license": "Apache-2.0",
+      "nvidia": "no"
+    },
+    {
       "repo": "HBAI-Ltd/Toonflow-app",
-      "stars": 22781,
+      "stars": 23079,
       "section": "video",
       "description": "短剧、漫剧制作工具 Toonflow：开源 AI 视频创作平台，集成剧本创作、智能分镜、角色与场景资产管理、图像生成和视频生成。融合无限画布、AI Agent 与可视化工作流，支持本地部署、自选模型、跨平台客户端、MCP 与插件扩展。Open-source AI short drama and motion comic creation tool with an infinite canvas, AI agents, storyboarding, image and video generation. Self-hosted and extensible, with a canvas-based approach similar to LibTV and TapNow.",
       "url": "https://github.com/HBAI-Ltd/Toonflow-app",
@@ -129,7 +138,7 @@
     },
     {
       "repo": "latent-spaces/brag",
-      "stars": 22529,
+      "stars": 22766,
       "section": "video",
       "description": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command.",
       "url": "https://github.com/latent-spaces/brag",
@@ -137,17 +146,8 @@
       "nvidia": "required"
     },
     {
-      "repo": "Vincentwei1021/video-shotcraft",
-      "stars": 22520,
-      "section": "video",
-      "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
-      "url": "https://github.com/Vincentwei1021/video-shotcraft",
-      "license": "Apache-2.0",
-      "nvidia": "no"
-    },
-    {
       "repo": "modelscope/FunASR",
-      "stars": 21123,
+      "stars": 21154,
       "section": "asr",
       "description": "Open-source speech recognition toolkit for training, inference, streaming ASR, VAD, punctuation, speaker diarization pipelines, and OpenAI-compatible/MCP serving.",
       "url": "https://github.com/modelscope/FunASR",
@@ -156,7 +156,7 @@
     },
     {
       "repo": "DrewThomasson/ebook2audiobook",
-      "stars": 20661,
+      "stars": 20691,
       "section": "tts",
       "description": "Generate audiobooks from e-books, 50+ TTS engines with voice cloning and 1696 languages!",
       "url": "https://github.com/DrewThomasson/ebook2audiobook",
@@ -165,7 +165,7 @@
     },
     {
       "repo": "k2-fsa/OmniVoice",
-      "stars": 16809,
+      "stars": 17366,
       "section": "tts",
       "description": "High-Quality Voice Cloning TTS for 600+ Languages",
       "url": "https://github.com/k2-fsa/OmniVoice",
@@ -173,17 +173,8 @@
       "nvidia": "optional"
     },
     {
-      "repo": "duixcom/Duix-Avatar",
-      "stars": 16442,
-      "section": "video",
-      "description": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning.",
-      "url": "https://github.com/duixcom/Duix-Avatar",
-      "license": "NOASSERTION",
-      "nvidia": "required"
-    },
-    {
       "repo": "nexu-io/openmotion",
-      "stars": 16180,
+      "stars": 17054,
       "section": "video",
       "description": "The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.",
       "url": "https://github.com/nexu-io/openmotion",
@@ -191,8 +182,17 @@
       "nvidia": "no"
     },
     {
+      "repo": "duixcom/Duix-Avatar",
+      "stars": 16477,
+      "section": "video",
+      "description": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning.",
+      "url": "https://github.com/duixcom/Duix-Avatar",
+      "license": "NOASSERTION",
+      "nvidia": "required"
+    },
+    {
       "repo": "kaldi-asr/kaldi",
-      "stars": 15517,
+      "stars": 15518,
       "section": "asr",
       "description": "kaldi-asr/kaldi is the official location of the Kaldi project.",
       "url": "https://github.com/kaldi-asr/kaldi",
@@ -201,7 +201,7 @@
     },
     {
       "repo": "alphacep/vosk-api",
-      "stars": 15285,
+      "stars": 15294,
       "section": "asr",
       "description": "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node",
       "url": "https://github.com/alphacep/vosk-api",
@@ -210,7 +210,7 @@
     },
     {
       "repo": "waooAI/waoowaoo",
-      "stars": 14984,
+      "stars": 15005,
       "section": "video",
       "description": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
       "url": "https://github.com/waooAI/waoowaoo",
@@ -219,7 +219,7 @@
     },
     {
       "repo": "HumanAIGC/AnimateAnyone",
-      "stars": 14782,
+      "stars": 14785,
       "section": "video",
       "description": "Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation",
       "url": "https://github.com/HumanAIGC/AnimateAnyone",
@@ -228,7 +228,7 @@
     },
     {
       "repo": "lipku/LiveTalking",
-      "stars": 11214,
+      "stars": 11407,
       "section": "lipsync",
       "description": "Real time interactive streaming digital human",
       "url": "https://github.com/lipku/LiveTalking",
@@ -237,7 +237,7 @@
     },
     {
       "repo": "Const-me/Whisper",
-      "stars": 10715,
+      "stars": 10714,
       "section": "asr",
       "description": "High-performance GPGPU inference of OpenAI's Whisper automatic speech recognition (ASR) model",
       "url": "https://github.com/Const-me/Whisper",
@@ -246,7 +246,7 @@
     },
     {
       "repo": "LykosAI/StabilityMatrix",
-      "stars": 9078,
+      "stars": 9093,
       "section": "tooling",
       "description": "Multi-Platform Package Manager for Stable Diffusion",
       "url": "https://github.com/LykosAI/StabilityMatrix",
@@ -254,17 +254,8 @@
       "nvidia": "optional"
     },
     {
-      "repo": "MeiGen-AI/InfiniteTalk",
-      "stars": 8474,
-      "section": "video",
-      "description": "​​Unlimited-length talking video generation​​ that supports image-to-video and video-to-video generation",
-      "url": "https://github.com/MeiGen-AI/InfiniteTalk",
-      "license": "Apache-2.0",
-      "nvidia": "required"
-    },
-    {
       "repo": "kaomei/stickman-video-director",
-      "stars": 8210,
+      "stars": 8800,
       "section": "video",
       "description": "AI Agent Skill (Claude Code, Codex & more): Turn any script into animated stickman videos for faceless YouTube, Shorts & TikTok. 20+ styles with voiceover, captions & SFX. Free & open-source (MIT).",
       "url": "https://github.com/kaomei/stickman-video-director",
@@ -272,8 +263,17 @@
       "nvidia": "required"
     },
     {
+      "repo": "MeiGen-AI/InfiniteTalk",
+      "stars": 8490,
+      "section": "video",
+      "description": "​​Unlimited-length talking video generation​​ that supports image-to-video and video-to-video generation",
+      "url": "https://github.com/MeiGen-AI/InfiniteTalk",
+      "license": "Apache-2.0",
+      "nvidia": "required"
+    },
+    {
       "repo": "leejet/stable-diffusion.cpp",
-      "stars": 8132,
+      "stars": 8151,
       "section": "video",
       "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,Minimax H3,...) inference in pure C/C++",
       "url": "https://github.com/leejet/stable-diffusion.cpp",
@@ -282,7 +282,7 @@
     },
     {
       "repo": "Osmantic/ODS",
-      "stars": 7918,
+      "stars": 7926,
       "section": "tooling",
       "description": "ODS V3 Pre-Release: Public testing and refinement ahead of the official V3 launch. Turn your PC, Mac, or Linux box into a private AI server.",
       "url": "https://github.com/Osmantic/ODS",
@@ -291,7 +291,7 @@
     },
     {
       "repo": "TheLastBen/fast-stable-diffusion",
-      "stars": 7911,
+      "stars": 7912,
       "section": "tooling",
       "description": "fast-stable-diffusion + DreamBooth",
       "url": "https://github.com/TheLastBen/fast-stable-diffusion",
@@ -300,7 +300,7 @@
     },
     {
       "repo": "11cafe/jaaz",
-      "stars": 6764,
+      "stars": 6765,
       "section": "tooling",
       "description": "The world's first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.",
       "url": "https://github.com/11cafe/jaaz",
@@ -309,7 +309,7 @@
     },
     {
       "repo": "wiltodelta/remove-ai-watermarks",
-      "stars": 6513,
+      "stars": 6566,
       "section": "tooling",
       "description": "Remove visible and invisible AI watermarks from images and video, clean supported audio watermarks, and strip AI provenance metadata. Python library, CLI, and agent skill for SynthID, C2PA, and other AI marks. By Victor Kuznetsov.",
       "url": "https://github.com/wiltodelta/remove-ai-watermarks",
@@ -327,7 +327,7 @@
     },
     {
       "repo": "ysharma3501/LuxTTS",
-      "stars": 5566,
+      "stars": 5582,
       "section": "tts",
       "description": "A high-quality rapid TTS voice cloning model that reaches speeds of 150x realtime.",
       "url": "https://github.com/ysharma3501/LuxTTS",
@@ -336,7 +336,7 @@
     },
     {
       "repo": "dmMaze/BallonsTranslator",
-      "stars": 5323,
+      "stars": 5325,
       "section": "comic",
       "description": "深度学习辅助漫画翻译工具, 支持一键机翻和简单的图像/文本编辑 | Yet another computer-aided comic/manga translation tool powered by deeplearning",
       "url": "https://github.com/dmMaze/BallonsTranslator",
@@ -345,7 +345,7 @@
     },
     {
       "repo": "fspecii/ace-step-ui",
-      "stars": 5262,
+      "stars": 5271,
       "section": "music",
       "description": "🎵 The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation. Free, local, unlimited. Stop paying for Suno!",
       "url": "https://github.com/fspecii/ace-step-ui",
@@ -354,7 +354,7 @@
     },
     {
       "repo": "wenet-e2e/wenet",
-      "stars": 5260,
+      "stars": 5262,
       "section": "asr",
       "description": "Production First and Production Ready End-to-End Speech Recognition Toolkit",
       "url": "https://github.com/wenet-e2e/wenet",
@@ -363,7 +363,7 @@
     },
     {
       "repo": "antgroup/echomimic",
-      "stars": 4336,
+      "stars": 4339,
       "section": "lipsync",
       "description": "[AAAI 2025] EchoMimic: Lifelike Audio-Driven Portrait Animations through Editable Landmark Conditioning",
       "url": "https://github.com/antgroup/echomimic",
@@ -372,7 +372,7 @@
     },
     {
       "repo": "Fannovel16/comfyui_controlnet_aux",
-      "stars": 4300,
+      "stars": 4302,
       "section": "image",
       "description": "ComfyUI's ControlNet Auxiliary Preprocessors",
       "url": "https://github.com/Fannovel16/comfyui_controlnet_aux",
@@ -381,7 +381,7 @@
     },
     {
       "repo": "GVCLab/PersonaLive",
-      "stars": 4216,
+      "stars": 4247,
       "section": "lipsync",
       "description": "[CVPR 2026] PersonaLive! : Expressive Portrait Image Animation for Live Streaming",
       "url": "https://github.com/GVCLab/PersonaLive",
@@ -390,7 +390,7 @@
     },
     {
       "repo": "HeartMuLa/heartlib",
-      "stars": 3816,
+      "stars": 3826,
       "section": "music",
       "description": "HeartMuLa Official Repo: The Most Powerful Open-Source Music Generation Model of 2026",
       "url": "https://github.com/HeartMuLa/heartlib",
@@ -407,17 +407,8 @@
       "nvidia": "required"
     },
     {
-      "repo": "neavo/LinguaGacha",
-      "stars": 2774,
-      "section": "comic",
-      "description": "全能翻译 AGENT Harness · 漫画 游戏 音视频 电子书 · PDF EPUB ASMR MANGA COMIC RPGGAME GALGAME · 一键 · 高质量 · 全格式",
-      "url": "https://github.com/neavo/LinguaGacha",
-      "license": null,
-      "nvidia": "required"
-    },
-    {
       "repo": "digitalsamba/claude-code-video-toolkit",
-      "stars": 2759,
+      "stars": 2813,
       "section": "video",
       "description": "Make videos with Claude Code: script, AI voiceover, music, video clips and render, on open-source models that cost cents",
       "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
@@ -425,8 +416,17 @@
       "nvidia": "no"
     },
     {
+      "repo": "neavo/LinguaGacha",
+      "stars": 2807,
+      "section": "comic",
+      "description": "全能翻译 AGENT Harness · 漫画 游戏 音视频 电子书 · PDF EPUB ASMR MANGA COMIC RPGGAME GALGAME · 一键 · 高质量 · 全格式",
+      "url": "https://github.com/neavo/LinguaGacha",
+      "license": null,
+      "nvidia": "required"
+    },
+    {
       "repo": "timoncool/YuE2-Studio",
-      "stars": 2525,
+      "stars": 2596,
       "section": "music",
       "description": "Local AI song generator with an editable score — YuE2 on your GPU: full songs with vocals, sheet music, covers, exact replay. Native Windows app, no Python, installer with auto-update.",
       "url": "https://github.com/timoncool/YuE2-Studio",
@@ -435,7 +435,7 @@
     },
     {
       "repo": "Lynpoint/CyberVerse",
-      "stars": 2068,
+      "stars": 2090,
       "section": "lipsync",
       "description": "Self hosted, real-time digital human agent platform. Build voice-first AI agents with WebRTC, persona memory, tools, RAG, and optional digital-human video.",
       "url": "https://github.com/Lynpoint/CyberVerse",
@@ -444,7 +444,7 @@
     },
     {
       "repo": "met4citizen/TalkingHead",
-      "stars": 1709,
+      "stars": 1719,
       "section": "lipsync",
       "description": "Talking Head (3D): A JavaScript class for real-time lip-sync using full-body 3D avatars.",
       "url": "https://github.com/met4citizen/TalkingHead",
@@ -462,7 +462,7 @@
     },
     {
       "repo": "jegly/Box",
-      "stars": 1047,
+      "stars": 1053,
       "section": "music",
       "description": "The most advanced, fully offline client-side AI suite on Android today.",
       "url": "https://github.com/jegly/Box",
@@ -471,9 +471,9 @@
     },
     {
       "repo": "jedzqer/manga-translator-android",
-      "stars": 523,
+      "stars": 535,
       "section": "comic",
-      "description": "安卓手机端的即时自动漫画翻译软件，由LLM驱动。Instant automatic manga translation app for mobile devices, powered by LLM.",
+      "description": "安卓 AI 漫画翻译 · Android AI manga translator. Translate manga into English, Português (Brasil), Русский, 简体中文 or 繁體中文.",
       "url": "https://github.com/jedzqer/manga-translator-android",
       "license": "NOASSERTION",
       "nvidia": "required"
